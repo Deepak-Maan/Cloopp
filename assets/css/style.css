@@ -268,6 +268,48 @@ ul {
     left: -53%;
 }
 
+.hrader-arrow {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+}
+
+.hrader-star {
+    position: absolute;
+    top: 10%;
+    left: 17%;
+}
+
+.hrader-ellipse {
+    position: absolute;
+    top: 10%;
+    right: -12%;
+}
+
+.greener-ellipse {
+    position: absolute;
+    top: 10%;
+    left: -12%;
+}
+
+.faq-ellipse {
+    position: absolute;
+    top: 10%;
+    right: -12%;
+}
+
+.subscribe-ellipse1 {
+    position: absolute;
+    top: 2%;
+    left: -12%;
+}
+
+.subscribe-ellipse2 {
+    position: absolute;
+    top: 20%;
+    right: -12%;
+}
+
 .br-10 {
     border-radius: 10px !important;
 }

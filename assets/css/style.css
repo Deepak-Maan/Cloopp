@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Over+the+Rainbow&display=swap');
+
+.font-rainbow {
+    font-family: "Over the Rainbow", cursive;
+}
+
+.font-outfit {
+    font-family: "Outfit", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+:root {
+    /* font-size */
+    --fs-sm: 14px;
+    --fs-md: 18px;
+    --fs-lg: 32px;
+    --fs-xl: 30px;
+    --fs-xl1: 44px;
+    --fs-xxl: 44px;
+
+    /* color */
+    --blue: #0073B1;
+    --lightblue: #0576B3;
+    --lightwhite2: #CCE3EF;
+    --grey: #CFCFCF;
+    --lightblack: #3d3d3d;
+    --yellow: #F8b762;
+    --lightwhite: #e5f1f7;
+    --lightwhite3: #CFE5F0
+}
+
+/* font size */
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-xl1 {
+    font-size: var(--fs-xl1);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+/* color */
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-lightblue {
+    color: var(--lightblue);
+}
+
+.text-grey {
+    color: var(--grey);
+}
+
+.text-lightblack {
+    color: var(--lightblack);
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.text-lightwhite {
+    color: var(--lightwhite);
+}
+
+.text-lightwhite2 {
+    color: var(--lightwhite2);
+}
+
+.text-lightwhite3 {
+    color: var(--lightwhite3);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-lightblue {
+    background-color: var(--lightblue);
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.f-line::before {
+    content: "";
+    position: absolute;
+
+    width: 0;
+    height: 2px;
+    border-radius: 15px;
+    background: #cfe5f0;
+    right: 0;
+    bottom: -10%;
+    transition: 0.5s;
+}
+
+.f-line:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+h1,
+h2 {
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 0 !important;
+}
+
+.overflow-x-clip {
+    overflow-x: clip;
+}
+
+/* gaps */
+.gap-36 {
+    gap: 36px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pb-12 {
+    padding-bottom: 12px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+/* max-widths */
+
+.max-w-630 {
+    max-width: 630px;
+}
+
+.max-w-675 {
+    max-width: 675px;
+}
+
+.max-w-610 {
+    max-width: 610px;
+}
+
+.max-w-515 {
+    max-width: 515px;
+}
+
+.max-w-503 {
+    max-width: 503px;
+}
+
+.max-w-448 {
+    max-width: 448px;
+}
+
+.max-w-471 {
+    max-width: 471px;
+}
+
+.max-w-957 {
+    max-width: 957px;
+}
+
+.max-w-345 {
+    max-width: 345px;
+}
+
+/* heights */
+.min-h-header {
+    min-height: 850px;
+}
+
+.h-485 {
+    height: 485px;
+}
+
+.min-h-subscribe {
+    min-height: 700px;
+}
+
+.greener-num {
+    background-color: #15231F;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* layers */
+.greener-layer {
+    position: absolute;
+    top: -6%;
+    width: 2051px;
+    left: -16px;
+}
+
+.greener-layer2 {
+    position: absolute;
+    bottom: -11%;
+    width: 2051px;
+    left: -16px;
+}
+
+.faq-layer {
+    position: absolute;
+    top: -22%;
+    width: 2270px;
+    left: -34%;
+}
+
+.faq-layer2 {
+    position: absolute;
+    bottom: -24%;
+    width: 2270px;
+    left: -53%;
+}
+
+.footer-layer {
+    position: absolute;
+    top: -32%;
+    width: 2270px;
+    left: -53%;
+}
+
+.br-10 {
+    border-radius: 10px !important;
+}
+
+.w_100 {
+    width: 100%;
+}
+
+.cross-1 {
+    rotate: 45deg;
+    transition: 0.4s;
+}
+
+.cross-2 {
+    position: relative;
+    transition: 0.4s;
+    top: -80%;
+    rotate: -45deg;
+}
+
+.cross-3 {
+    display: none !important;
+}
+
+.cross-4 {
+    transition: 0.4s;
+}
+
+.cross-5 {
+    transition: 0.4s;
+}
+
+.cross-6 {
+    transition: 0.4s;
+}
+
+.flow-hidden {
+    overflow: hidden;
+}
+
+/* accordion */
+
+.recycle-accordion .accordion-item {
+    background-color: transparent;
+    display: flex;
+    border: 1px solid #a4a4a4;
+    border-radius: 10px !important;
+}
+
+.recycle-accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    color: #fff;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.recycle-accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+}
+
+.recycle-accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 21px;
+    right: 4px;
+    width: 22px;
+    height: 22px;
+    border-radius: 22px;
+}
+
+.recycle-accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 12px;
+    left: 3px;
+    width: 16px;
+    border-radius: 30px;
+    height: 3px;
+    background: currentColor;
+}
+
+.recycle-accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 4.5px;
+    left: 9px;
+    width: 3px;
+    height: 16px;
+    border-radius: 30px;
+    background: currentColor;
+}
+
+.recycle-accordion button[aria-expanded="true"] .icon::after {
+    width: 0;
+}
+
+.recycle-accordion button[aria-expanded="true"]+.accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.recycle-accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion-item:not(:first-of-type) {
+    border-top: 1px solid #a4a4a4 !important;
+}
+
+.recycle-accordion button .accordion-title {
+    padding: unset !important;
+}
+
+/* inputs */
+
+input {
+    outline: unset !important;
+    border: 1px solid #C5C5C5;
+    color: #CCE3EF;
+    position: relative;
+    z-index: 2;
+    padding-right: 100px;
+}
+
+::placeholder {
+    color: #CCE3EF;
+}
+
+/* buttons */
+.common-btn {
+    background-color: white;
+    color: var(--blue);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+/* animation */
+
+
+
+/* faq accordion */
+.accordion .accordion-item {
+    border-radius: 10px !important;
+    border: 1px solid #C5C5C5 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    box-shadow: unset !important;
+}
+
+.accordion .accordion-item .accordion-button {
+    padding: unset !important;
+    font-size: var(--fs-md) !important;
+    font-family: "Outfit", sans-serif !important;
+    font-weight: 500;
+    color: black !important;
+}
+
+.accordion .accordion-item .accordion-body {
+    padding-left: unset !important;
+    max-width: 758px;
+    font-weight: 400 !important;
+    font-size: var(--fs-sm) !important;
+    font-family: "Outfit", sans-serif !important;
+    color: var(--lightblack);
+}
+
+.accordion-button:focus {
+    box-shadow: unset !important;
+}
+
+.footer-b-line::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -28%;
+    display: flex;
+    width: 2150px;
+    height: 1px;
+    background-color: white;
+}
+
+@media (min-width:576px) {
+    .greener-num {
+        width: 45px;
+    }
+}
+
+@media (min-width:576px) {
+    .h-md-485 {
+        height: 485px;
+    }
+
+    :root {
+        /* font-size */
+        --fs-sm: 16px;
+        --fs-md: 20px;
+        --fs-lg: 24px;
+        --fs-xl: 40px;
+        --fs-xl1: 50px;
+        --fs-xxl: 50px;
+    }
+
+    .recycle-accordion button .icon {
+        display: inline-block;
+        position: absolute;
+        top: 21px;
+        right: 18px;
+        width: 22px;
+        height: 22px;
+        border-radius: 22px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        /* font-size */
+        --fs-sm: 16px;
+        --fs-md: 24px;
+        --fs-lg: 32px;
+        --fs-xl: 52px;
+        --fs-xl1: 64px;
+        --fs-xxl: 80px;
+    }
+
+    .w-lg-unset {
+        width: unset !important;
+    }
+
+    .greener-layer {
+        position: absolute;
+        top: -7.5%;
+        width: 2051px;
+        left: -16px;
+    }
+
+    .faq-layer {
+        position: absolute;
+        top: -27%;
+        width: 2270px;
+        left: -7%;
+    }
+
+    .faq-layer2 {
+        position: absolute;
+        bottom: -28%;
+        width: 2270px;
+        left: -8%;
+    }
+
+    .footer-layer {
+        position: absolute;
+        top: -28%;
+        width: 2270px;
+        left: -8%;
+    }
+
+    .px-lg-20 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    label[id="icon"] {
+        width: 30px;
+        height: 24px;
+        cursor: pointer;
+        display: flex;
+        position: absolute;
+        right: 5%;
+        top: 6%;
+        justify-content: space-between;
+        flex-direction: column;
+        z-index: 5;
+        align-items: center;
+    }
+
+    label[id="icon"]>span {
+        width: 100%;
+        height: 5px;
+        background: #fff;
+    }
+
+    .nav-box {
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        position: fixed;
+        opacity: 1;
+        width: 100%;
+        max-width: 400px;
+        height: 100%;
+        background: #0073b1;
+        z-index: 3;
+        box-shadow: 0px 0px 19px 9px rgba(0, 0, 0, 0.1);
+        transition: all 500ms linear;
+    }
+
+    .fix-lft {
+        left: 0;
+    }
+}

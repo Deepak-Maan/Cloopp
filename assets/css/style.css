@@ -455,7 +455,7 @@ input {
     border: 1px solid #C5C5C5;
     color: #CCE3EF;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     padding-right: 100px;
 }
 
@@ -476,7 +476,7 @@ input {
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: 0;
+    z-index: 2;
 }
 
 /* animation */

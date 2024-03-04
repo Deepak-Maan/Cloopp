@@ -487,6 +487,7 @@ input {
 .common-btn:hover {
     background-color: transparent;
     border: 1px solid white;
+    color: white;
 }
 
 /* animation */

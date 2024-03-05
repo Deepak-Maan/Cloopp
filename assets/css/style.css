@@ -223,7 +223,7 @@ ul {
 }
 
 .min-h-subscribe {
-    min-height: 700px;
+    min-height: 485px;
 }
 
 .greener-num {
@@ -246,9 +246,10 @@ ul {
 
 .greener-layer2 {
     position: absolute;
-    bottom: -11%;
+    bottom: -9%;
     width: 2051px;
     left: -16px;
+    height: 133px;
 }
 
 .faq-layer {
@@ -260,16 +261,18 @@ ul {
 
 .faq-layer2 {
     position: absolute;
-    bottom: -24%;
+    bottom: -12%;
     width: 2270px;
     left: -53%;
+    height: 133px;
 }
 
 .footer-layer {
     position: absolute;
-    top: -32%;
+    top: -14%;
     width: 2270px;
     left: -53%;
+    height: 133px;
 }
 
 .hrader-arrow {
@@ -550,6 +553,25 @@ input {
 @media (min-width:576px) {
     .h-md-485 {
         height: 485px;
+    }
+
+    .min-h-subscribe {
+        min-height: 700px;
+    }
+
+    .greener-layer2 {
+        position: absolute;
+        bottom: -11%;
+        width: 2051px;
+        left: -16px;
+    }
+
+    .footer-layer {
+        position: absolute;
+        top: -14%;
+        width: 2270px;
+        left: -53%;
+        height: 133px;
     }
 
     :root {

@@ -452,6 +452,10 @@ ul {
     padding: unset !important;
 }
 
+.accordion-button {
+    background-color: transparent !important;
+}
+
 /* inputs */
 
 input {
